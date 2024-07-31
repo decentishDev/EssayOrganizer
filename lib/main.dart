@@ -277,7 +277,7 @@ class EssaysView extends StatelessWidget {
           if (index == essays.length + 1) {
             // Last item is the "Add Essay" button
             return Padding(
-              padding: const EdgeInsets.fromLTRB(16 + 30, 8, 16 + 30, 0),
+              padding: const EdgeInsets.fromLTRB(16 + 30, 8, 16 + 30, (16 + 30)),
               child: FloatingActionButton(
                 onPressed: () {
                   _showEditPromptDialog(context, appState, -1); // Show dialog for adding a new essay
